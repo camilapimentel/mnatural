@@ -1,0 +1,39 @@
+header {
+  position: relative;
+  width: 100%;
+  height: 200px;
+}
+
+#brand {
+  position: absolute;
+  width: 130px;
+  height: 130px;
+  left: 2%;
+  top: 20%;
+  background: url(http://mnatural.com.br/gallery_gen/cef997716a1577607a3995ef3f87033f_130x130.png) 
+              no-repeat left center;
+}
+#logo {
+  position: absolute;
+  width: 320px;
+  height: 70px;
+  left: 11.5%;
+  top: 30.5%;
+  background: url(http://mnatural.com.br/gallery_gen/12c4c752e4854fc0ebbcc8b74dbcefb9_320x70.png) no-repeat center;
+}
+#logo2 {
+  position: absolute;
+  width: 280px;
+  height: 40px;
+  left: 13%;
+  top: 61%;
+  background: url(http://mnatural.com.br/gallery_gen/f8aaca782c3d175e0235dcb7ebe2b1e0_280x40.png) no-repeat center;
+}
+
+div.middle-header {
+  position: absolute;
+  left: 39%;
+  right: 31%;
+  top: 25.5%;
+  bottom: 25.5%;
+}
