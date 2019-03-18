@@ -7,7 +7,7 @@ import './styles/Layout.css';
 const Layout = props => (
   <div className="layout-container">
     <Header />
-    <Content>{props.children}</Content>
+    <Content title={props.title}>{props.children}</Content>
     <Footer />
   </div>
 );
