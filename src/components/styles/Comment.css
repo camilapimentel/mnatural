@@ -1,0 +1,50 @@
+.comment{
+  display: inline-flex;
+}
+
+div.contentComment {
+  display: flex;
+  flex-direction: column;
+}
+
+div.imgTest {
+  width: 60px;
+  height: 60px;
+  border-radius: 180%;
+  box-shadow: 1px 1px 5px 0px gray;
+  border: 1px grey;
+  background-size: cover;
+}
+
+img.avatar {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 180%;
+}
+
+a.commentLink {
+  margin: 0%;
+  color: #9bb93d;
+  text-decoration-line: none;
+  justify-content: flex-start;
+  display: flex;
+  height: 100%;
+  width: 90%;
+}
+div.contentComment {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+  width: 90%;
+}
+h4.profileName {
+  margin: 0%;
+}
+h6.comment {
+  margin-top: 1%;
+  margin-bottom: 0%;
+  width: 90%;
+  color: #757474;
+}

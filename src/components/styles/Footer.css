@@ -1,59 +1,92 @@
 footer {
   position: relative;
   width: 100%;
-  bottom: 0%;
-  height: 200px;
+  bottom: 2%;
+  height: 300px;
+  box-shadow: 1px 1px 5px 0px #c2c2c2;
 }
 
 div.social-content {
   position: absolute;
+  width: 19%;
+  height: 35%;
   left: 2%;
-  right: 78%;
-  top: 10%;
+  top: 5%;
 }
 
 div.promo-content {
   position: absolute;
-  right: 38%;
-  width: 445px;
-  top: 42%;
-  bottom: 0%;
-  display: inline-flex;
+  right: 44%;
+  width: 30%;
+  height: 57%;
+  top: 40%;
+  bottom: 2%;
+  display: flex;
+  flex-direction: column;
 }
-div.procurados-header {
-  display: inline-grid;
+div.services {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+}
+div.procurados-header h2 {
+  margin-bottom: 5%;
+  margin-top: 0%;
+  color: #3e8b39;
+  font-family: 'Karla' , sans-serif;
+}
+div.services h4 {
+  margin: 0%;
+  font-size: 12px;
 }
 div.promo-content a{
   color: #9bb93d;
   text-decoration-line: none;
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-top: 2%;
+  margin: none;
+  width: 20%;
+  height: 100%;
+}
+img.serv-img {
+  position: relative;
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
+  border-radius: 180%;
+  margin-top: 15%;
+  margin-left: -12%;
+  box-shadow: 1px 1px 5px 0px gray;
 }
 
-img.serv-img {
-  width: 60px;
-  height: 60px;
-  border-radius: 180%;
-  background-size: cover;
-  display: flex;
-  margin-top: 30%;
-  margin-left: -5%;
-  box-shadow: 2px 2px 20px 0px #0000007d;
-  border: 1px grey;
-}
 div.depo-content {
   position: absolute;
   right: 2%;
-  top: 42%;
-  bottom: 0%;
-  width: 445px;
-  display: inline-grid;
+  top: 40%;
+  bottom: 2%;
+  width: 35%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
 }
-div.depo-content a{
-  color: #9bb93d;
-  text-decoration-line: none;
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-top: 2%;
+
+h2.headerComment {
+  margin-bottom: 3%;
+  margin-top: 0%;
+  color: #3e8b39;
+}
+
+.commentBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.serviceCell {
+  display: flex;
+  flex-flow: column wrap;
+  height: 100%;
+  align-items: center;
+  text-align: center;
 }

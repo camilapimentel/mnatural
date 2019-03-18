@@ -15,6 +15,7 @@ input#place-holder {
   border-radius: 9999em;
   opacity: 0.7;
   display: inline-block;
+  outline: 0;
 }
 ::placeholder {
   text-align: center;
@@ -29,6 +30,8 @@ button#button {
   background: transparent;
   border: 2px solid #8fb962;
   border-radius: 0% 100% 0% 73% / 15% 67% 0% 96%;
+  cursor: pointer;
+  outline: 0;
 }
 button#button:hover{
   background-image: linear-gradient(to right bottom, #cdd16b, #c0cd69, #b4c868, #a7c468, #9bbf67,

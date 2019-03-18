@@ -9,20 +9,26 @@ const Header = () => (
     <div id="logo" />
     <div id="logo2" />
     <div className="middle-header">
-      <Leaf className="servico">
-        <a />
-      </Leaf>
-      <Leaf className="cursos">
-        <a />
-      </Leaf>
-      <Leaf className="contato">
-        <a>
-          <img src="https://image.flaticon.com/icons/svg/43/43212.svg" alt="" />
-        </a>
-      </Leaf>
-      <Leaf className="depoimentos">
-        <a />
-      </Leaf>
+      <Leaf
+        linkUrl=""
+        iconUrl="https://image.flaticon.com/icons/svg/823/823867.svg"
+        linkName="Serviços"
+      />
+      <Leaf
+        linkUrl=""
+        iconUrl="https://image.flaticon.com/icons/svg/182/182321.svg"
+        linkName="Cursos"
+      />
+      <Leaf
+        linkUrl=""
+        iconUrl="https://image.flaticon.com/icons/svg/1466/1466933.svg"
+        linkName="Contato"
+      />
+      <Leaf
+        linkUrl=""
+        iconUrl="https://image.flaticon.com/icons/svg/149/149181.svg"
+        linkName="Depoimentos"
+      />
     </div>
     <Search />
   </header>
