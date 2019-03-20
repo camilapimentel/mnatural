@@ -3,7 +3,7 @@ import './styles/Content.css';
 
 const Content = props => (
   <main className="content">
-    <h1>{props.title}</h1>
+    <h1 className="title">{props.title}</h1>
     {props.children}
   </main>
 );

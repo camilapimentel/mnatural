@@ -1,0 +1,28 @@
+img.bioAvatar {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 180%;
+}
+.imgDiv{
+  border-radius: 180%;
+  border: 1px grey;
+  background-size: cover;
+}
+div.biografia {
+  position: relative;
+  display: inline-flex;
+  flex-direction: row;
+  width: 50%;
+  height: 50%;
+  margin: 2%;
+}
+
+p.sobreMim {
+  font-size: 75%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  margin-left: 2%;
+  text-align: justify;
+}
