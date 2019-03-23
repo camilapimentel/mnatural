@@ -1,4 +1,9 @@
-img.bioAvatar {
+div.home {
+  display: flex;
+  flex-direction: row;
+}
+
+img#bioAvatar {
   position: relative;
   width: 100%;
   height: 100%;
@@ -9,20 +14,70 @@ img.bioAvatar {
   border-radius: 180%;
   border: 1px grey;
   background-size: cover;
+  width: 25%;
+  height: 25%;
+  margin-top: 3%;
 }
-div.biografia {
+.biografia {
   position: relative;
   display: inline-flex;
   flex-direction: row;
   width: 50%;
   height: 50%;
   margin: 2%;
+  margin-left: 7%;
 }
-
+.bioText {
+  width: 100%;
+  height: 50%;
+  margin-left: 2%;
+}
+.bioText h4 {
+  margin-bottom: 2%;
+  text-align: center;
+  margin-top: 0%;
+}
 p.sobreMim {
   font-size: 75%;
+  margin: 0%;
+  text-align: justify;
+}
+.bemvindos {
+  position: relative;
+  display: inline-flex;
+  flex-direction: row;
+  width: 30%;
+  height: 50%;
+  margin: 2%;
+}
+.bemvindosText h4 {
+  margin-bottom: 2%;
+  text-align: center;
   margin-top: 0%;
-  margin-bottom: 0%;
-  margin-left: 2%;
+}
+p.sobreBemvindos {
+  font-size: 75%;
+  margin: 0%;
+  text-align: justify;
+}
+
+.missao {
+  position: relative;
+  display: inline-flex;
+  flex-direction: row;
+  width: 45%;
+  height: 50%;
+  margin-left: 27%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.missaoText h4 {
+  margin-bottom: 2%;
+  text-align: center;
+  margin-top: 0%;
+}
+p.sobreMissao {
+  font-size: 75%;
+  margin: 0%;
   text-align: justify;
 }
